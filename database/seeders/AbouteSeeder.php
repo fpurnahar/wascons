@@ -15,9 +15,9 @@ class AbouteSeeder extends Seeder
     public function run()
     {
         About::create([
-            'title' => 'PT Wase Intan Perdana',
-            'description' => 'Jika Anda sedang mencari Perusahaan Konstruksi yang andal, terpercaya, dan efisien, tidak perlu mencari yang lain selain Wase Intan Perdana. Apakah Anda memerlukan bantuan dalam proyek kecil atau pekerjaan yang lebih besar, kami ingin meringankan beban Anda dengan menyediakan layanan khusus kami. Cukup hubungi kami dan beri tahu kami apa yang Anda butuhkan.',
-            'image' => '/assets/img/about/about.jpeg',
+            'title' => 'WASCONS',
+            'description' => 'PT. Wase Intan Perdana atau yang biasa disebut dengan Wase Construction (WASCONS) merupakan Kontraktor area Kota Tangerang dan sekitarnya, WASCONS Kontraktor Bangunan Komersial yang senantiasa menjaga kepercayaan client untuk mewujudkan setiap bangunan yang di impikan...',
+            'image' => '/assets/img/about/1646763851_image_about.jpg',
         ]);
     }
 }
