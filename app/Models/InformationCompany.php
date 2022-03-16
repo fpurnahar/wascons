@@ -11,5 +11,5 @@ class InformationCompany extends Model
 
     protected $table = 'information_companies';
 
-    protected $fisilable = ['company_name', 'company_email', 'company_number_phone', 'company_facebook', 'company_instagram', 'company_linkedin', 'company_logo'];
+    protected $fisilable = ['company_name', 'company_email', 'company_number_phone', 'company_facebook', 'company_instagram', 'company_linkedin', 'company_logo', 'company_pdf'];
 }

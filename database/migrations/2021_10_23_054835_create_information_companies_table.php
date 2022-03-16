@@ -23,6 +23,7 @@ class CreateInformationCompaniesTable extends Migration
             $table->string('company_instagram');
             $table->string('company_linkedin');
             $table->string('company_logo');
+            $table->string('company_pdf');
             $table->timestamps();
         });
     }

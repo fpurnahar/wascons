@@ -146,7 +146,6 @@
 
             <div class="row" data-aos="fade-up">
                 @foreach ($information_company as $item)
-
                     <div class="col-lg-6">
                         <div class="info-box mb-4">
                             <i class="bx bx-map"></i>
@@ -200,8 +199,7 @@
                                 required>
                         </div>
                         <div class="form-group mt-3">
-                            <textarea class="form-control" name="messaga" rows="5" placeholder="Message"
-                                required></textarea>
+                            <textarea class="form-control" name="messaga" rows="5" placeholder="Message" required></textarea>
                         </div>
                         <div class="my-3">
                             {{-- <div class="loading">Loading</div> --}}

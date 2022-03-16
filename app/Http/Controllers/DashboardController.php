@@ -39,6 +39,7 @@ class DashboardController extends Controller
             'company_instagram' => 'required',
             'company_linkedin' => 'required',
             'company_logo' => 'required|mimes:jpg,jpeg,png,svg',
+            'company_pdf' => 'required|mimetypes:application/pdf',
         ]);
 
         $information_update = InformationCompany::findOrfail($id);
@@ -54,11 +55,24 @@ class DashboardController extends Controller
                 unlink($oldImage);
             }
             $update_logo_company = $request->company_logo;
-            $filename = time() . '_logo_company.' . $update_logo_company->getClientOriginalExtension();
+            $filename = 'logo_company.' . $update_logo_company->getClientOriginalExtension();
             $destinationPath = public_path() . '/assets/img/logo/';
             $update_logo_company->move($destinationPath, $filename);
             $information_update->company_logo = '/assets/img/logo/' . $filename;
         }
+
+        if ($request->hasFile('company_pdf')) {
+            $oldPDF = public_path() . $information_update->company_pdf;
+            if (file_exists($oldPDF)) {
+                unlink($oldPDF);
+            }
+            $update_company_pdf = $request->company_pdf;
+            $filePDF = 'catalog.' . $update_company_pdf->getClientOriginalExtension();
+            $destinationPathPDF = public_path() . '/assets/pdf/';
+            $update_company_pdf->move($destinationPathPDF, $filePDF);
+            $information_update->company_pdf = '/assets/pdf/' . $filePDF;
+        }
+
         $information_update->save();
         return redirect()->route('list.company.infmation')->with('success', 'Update Success');
     }

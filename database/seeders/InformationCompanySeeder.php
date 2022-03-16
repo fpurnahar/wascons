@@ -23,6 +23,7 @@ class InformationCompanySeeder extends Seeder
             'company_instagram' => 'https://www.instagram.com/wase.ip/?utm_medium=copy_link',
             'company_linkedin' => 'https://www.linkedin.com/in/ryan-mizaz-7416b116a/',
             'company_logo' => '/assets/img/logo/logo.png',
+            'company_pdf' => '/assets/pdf/test.pdf',
         ]);
     }
 }

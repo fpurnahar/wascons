@@ -19,12 +19,13 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>@yield('title')</title>
-    <meta
-        content="Mencari Perusahaan Konstruksi yang andal dengan pengalaman luas untuk proyek Anda berikutnya? Di Wase Intan Perdana, kami mendukung keunggulan pekerjaan kami dan memberikan perhatian khusus kepada klien berdasarkan kebutuhan spesifik mereka. Jika Anda mencari Perencanaan Konstruksi profesional, silakan hubungi untuk konsultasi Anda."
-        name="description">
-    <meta
-        content="wascons, jasakontraktortangerang, jasakontraktorjakarta, jasakontruksitangerang, jasabangunrumah, jasarenovasirumah, jasakontraktorgreenlakecity, jasakontraktorvillameruya, pemborongtangerang, pemborongkarangtengah, kontraktorkarangtengah, jasarenovasi, jasarenovasirumah, jasarenovasibangunan"
-        name="keywords">
+
+    <meta name="description"
+        CONTENT="Mencari Perusahaan Konstruksi yang andal dengan pengalaman luas untuk proyek Anda berikutnya? Di Wase Intan Perdana, kami mendukung keunggulan pekerjaan kami dan memberikan perhatian khusus kepada klien berdasarkan kebutuhan spesifik mereka. Jika Anda mencari Perencanaan Konstruksi profesional, silakan hubungi untuk konsultasi Anda.">
+    <meta name="keywords"
+        content="wascons, jasakontraktortangerang, jasakontraktorjakarta, jasakontruksitangerang, jasabangunrumah, jasarenovasirumah, jasakontraktorgreenlakecity, jasakontraktorvillameruya, pemborongtangerang, pemborongkarangtengah, kontraktorkarangtengah, jasarenovasi, jasarenovasirumah, jasarenovasibangunan">
+    <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34=" />
+    <meta name="robots" content="noindex,nofollow">
 
     <!-- Favicons -->
     <link href="{{ asset('assets/img/favicon_2.jpeg') }}" rel="icon">

@@ -61,7 +61,14 @@
                                                 id="company_linkedin" placeholder="Enter Company Linkedin..."
                                                 value="{{ $edit_information->company_linkedin }}" required>
                                         </div>
-
+                                        <div class="form-group">
+                                            <label>Catalog PDF</label>
+                                            <div class="custom-file">
+                                                <input type="file" class="custom-file-input" id="customFilePDF"
+                                                    name="company_pdf">
+                                                <label class="custom-file-label" for="customFilePDF">Choose file PDF</label>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -83,8 +90,8 @@
                                     <div class="col-sm-12">
                                         <div class="form-group">
                                             <label>Company Address</label>
-                                            <textarea type="text" class="form-control" name="company_address"
-                                                id="company_address" placeholder="Enter Company Name..."
+                                            <textarea type="text" class="form-control" name="company_address" id="company_address"
+                                                placeholder="Enter Company Name..."
                                                 required>{{ $edit_information->company_address }}</textarea>
                                         </div>
                                     </div>

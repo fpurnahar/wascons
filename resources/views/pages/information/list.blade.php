@@ -79,6 +79,13 @@
                                                     class="btn btn-outline-secondary">{{ $info->company_address }}</button>
                                             </p>
 
+                                            <p class="text-sm-start"><i class="fas fa-book"></i>
+                                            </p>
+                                            <div class="card card-success">
+                                                <div class="card-body">
+                                                    <embed src="{{ $info->company_pdf }}" width="600px" height="200px" />
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
