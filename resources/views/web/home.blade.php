@@ -30,6 +30,10 @@
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
         <div class="container" data-aos="zoom-in">
+            <div class="section-title">
+                <span>Our Client</span>
+                <h2>Our Client</h2>
+            </div>
             <div class="row d-flex align-items-center">
                 @foreach ($clients_banner as $item)
                     <div class="col-lg-2 col-md-4 col-6">
